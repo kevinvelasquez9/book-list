@@ -1,0 +1,66 @@
+body {
+    background-color: #131313;
+    color: white;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+}
+
+.header, .textbar {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#add {
+    background-color: #BB86FC;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#add:hover {
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F1F1F;
+    width: 87%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.remove {
+    background-color: red;
+    border: none;
+    outline: none;
+    padding: 0px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
